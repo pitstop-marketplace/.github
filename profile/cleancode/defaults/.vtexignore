@@ -1,0 +1,47 @@
+# Ignorar arquivos .DS_Store (arquivos ocultos criados pelo macOS)
+.DS_Store
+
+# Ignorar a pasta .git (repositório Git)
+.git
+
+# Ignorar a pasta node_modules (dependências do projeto)
+node_modules/
+
+# Ignorar o arquivo package.json (manifesto do projeto)
+package.json
+
+# Ignorar a pasta .vscode (arquivos de configuração do Visual Studio Code)
+.vscode/
+
+# Ignorar o arquivo .gitignore (próprio arquivo de configuração do Git)
+.gitignore
+
+# Ignorar o arquivo tsconfig.json (configuração do TypeScript)
+tsconfig.json
+
+# Ignorar o arquivo tslint.json (configuração do TSLint)
+tslint.json
+
+# Ignorar o arquivo typings.d.ts (arquivo de definições de tipo)
+typings.d.ts
+
+# Ignorar o arquivo yarn.lock (lockfile do Yarn)
+yarn.lock
+
+# Ignorar a pasta node_modules dentro de render/
+render/node_modules/
+
+# Ignorar a pasta node_modules dentro de service/
+service/node_modules/
+
+# Ignorar todos os arquivos dentro de react/__tests__/
+react/__tests__/**
+
+# Ignorar o arquivo .babelrc dentro de react/
+react/.babelrc
+
+# Ignorar o arquivo .eslintrc dentro de react/
+react/.eslintrc
+
+# Ignorar o arquivo setupTests.js dentro de react/
+react/setupTests.js
